@@ -1,5 +1,6 @@
-# Test git 1
-# Test git 2
-# Test git 3
-# Test git 4
-# Read commits
+import platform
+import sys
+
+info = f'OS info is \n{platform.uname()} \n\n Python version is {sys.version}{platform.architecture()}'
+print(info)
+
